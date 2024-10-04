@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Sticky Note Web App</title>
+
+    <!-- Reset and Variables CSS (Base Styles) -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/variables.css">
+
+    <!-- Component and Layout Styles -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/components/navbar.css">
+    <link rel="stylesheet" href="./assets/styles/components/sticky-note.css">
+    <link rel="stylesheet" href="./assets/styles/components/kanban-board.css">
+    <link rel="stylesheet" href="./assets/styles/components/tooltip.css">
+
+    <!-- Theme-Specific CSS -->
+    <link id="theme-stylesheet" rel="stylesheet" href="./assets/styles/light-mode.css">
+</head>
+<body>
+    <header>
+        <!-- Include the Nav Bar Component -->
+        <div id="navbar-container"></div>
+    </header>
+    <main>
+        <!-- Main Kanban Board -->
+        <div id="kanban-board" role="list" aria-label="Kanban Board for Task Management"></div>
+    </main>
+    <!-- Guided Tutorial Modal -->
+    <div id="guided-modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true"></div>
+
+    <!-- Scripts -->
+    <script src="./assets/scripts/main.js" type="module"></script>
+</body>
+</html>

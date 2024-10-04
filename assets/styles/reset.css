@@ -1,0 +1,22 @@
+/* Reset browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sans-serif', Arial, sans-serif;  /* Sets the base font for the whole app */
+}
+
+body {
+    line-height: 1.5;
+    overflow-x: hidden;  /* Prevent horizontal scroll */
+}
+
+/* Ensure buttons, inputs, and other common elements have consistent styling */
+button,
+input,
+textarea {
+    border: none;
+    outline: none;
+    font-family: inherit;  /* Inherit fonts from parent */
+}
+

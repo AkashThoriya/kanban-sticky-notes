@@ -1,0 +1,25 @@
+/* Tooltips for buttons and UI hints */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    background-color: var(--text-dark);
+    color: var(--text-light);
+    text-align: center;
+    padding: var(--spacing-small);
+    border-radius: var(--border-radius);
+    position: absolute;
+    bottom: 125%; /* Position above the element */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}

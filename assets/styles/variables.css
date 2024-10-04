@@ -1,0 +1,25 @@
+:root {
+    /* Color Variables */
+    --primary-color: #4a90e2;       /* Primary theme color */
+    --secondary-color: #e94e77;     /* Accent color */
+    --background-light: #f9f9f9;    /* Background color for light mode */
+    --background-dark: #333333;     /* Background color for dark mode */
+    --text-light: #ffffff;          /* Text color for dark backgrounds */
+    --text-dark: #333333;           /* Text color for light backgrounds */
+    --note-color-yellow: #f8e71c;   /* Default note color */
+    --note-color-blue: #4a90e2;     /* Alternate note color */
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+    /* Font Sizes */
+    --font-small: 12px;
+    --font-medium: 16px;
+    --font-large: 24px;
+
+    /* Border Radius */
+    --border-radius: 8px;
+}
+

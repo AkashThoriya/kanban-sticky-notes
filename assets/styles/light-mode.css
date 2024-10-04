@@ -1,0 +1,11 @@
+/* Light mode is the default, so most adjustments are not needed */
+/* Additional styles here for specific tweaks if needed */
+body.light-mode {
+    background-color: var(--background-light);
+    color: var(--text-dark);
+}
+
+/* Navbar for light mode */
+.navbar.light-mode {
+    background-color: var(--primary-color);
+}

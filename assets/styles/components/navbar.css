@@ -1,0 +1,23 @@
+/* Navbar specific styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-medium);
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+/* Navbar buttons */
+.navbar button {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    padding: var(--spacing-small);
+    border-radius: var(--border-radius);
+    transition: background-color 0.2s;
+}
+
+.navbar button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,21 @@
+body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-light);
+}
+
+/* Header for dark mode */
+header.dark-mode {
+    background-color: #1a1a1a;
+}
+
+/* Sticky notes in dark mode */
+.sticky-note.dark-mode {
+    background-color: #444;
+    color: var(--text-light);
+}
+
+/* Navbar adjustments for dark mode */
+.navbar.dark-mode {
+    background-color: #222;
+    color: var(--text-light);
+}
